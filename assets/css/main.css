@@ -54,7 +54,7 @@ font-family: 'Roboto', sans-serif;
 }
 .body-text{
     position: absolute;
-    width: 65vw;
+    width: 60vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -268,7 +268,7 @@ font-family: 'Roboto', sans-serif;
         /* background: red; */
     }
     .body-text{
-        width: 290px;
+        width: 320px;
         position: relative;
         top: 0px;
     }
@@ -293,11 +293,11 @@ font-family: 'Roboto', sans-serif;
         font-size: 1.5rem;
         font-weight: bolder;
         position: absolute;
-        top: 7px;
+        top: -10px;
     }
     .offer-section .line{
         position: absolute;
-        top: 41px;
+        top: 22px;
         width: 18vw;
         height: .5vh;
         background: black;
