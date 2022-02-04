@@ -246,15 +246,16 @@ font-family: 'Roboto', sans-serif;
         height: 50px;
     }
     .besteeze-logo img{
-        width: 95px;
+        width: 85px;
     }
     .title-area a{
         /* top: 0; */
         font-size: 18px;
     }
     .text-container{
-        top: 50px;
+        /* top: 0px; */
         height: 30vh;
+        /* background: red; */
     }
     .body-text{
         width: 290px;
@@ -268,7 +269,7 @@ font-family: 'Roboto', sans-serif;
 
     .offer-section{
         position: relative;
-        top: 40px;
+        bottom: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -282,7 +283,7 @@ font-family: 'Roboto', sans-serif;
         font-size: 1.5rem;
         font-weight: bolder;
         position: absolute;
-        top: 10px;
+        top: 20px;
     }
     .offer-section .offer-contents{
         /* background: sandybrown; */
@@ -318,7 +319,7 @@ font-family: 'Roboto', sans-serif;
     }
     .footer{
         position: relative;
-        top: 40px;
+        bottom: 20px;
         width: 100vw;
         height: 26vh;
         display: flex;
