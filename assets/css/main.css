@@ -1,0 +1,628 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+}
+/* default css */
+.title-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 100vw;
+    /* background-color: salmon; */
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
+    position: fixed;
+}
+.besteeze-logo{
+    position: absolute;
+    top: 12px;
+    left: 30px;
+    /* background-color: royalblue; */
+}
+
+.title-text{
+    position: absolute;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+    /* background-color: rgb(126, 116, 136); */
+}
+.title-area a{
+    font-size: 30px;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.text-container{
+    position: relative;
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: salmon; */
+}
+.body-text{
+    position: absolute;
+    width: 65vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* background-color: salmon; */
+}
+.body-text p{
+    font-size: 22px;
+    line-height: 41px;
+}
+.offer-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 50vh;
+    /* background-color: forestgreen; */
+}
+.offer-section h1{
+    font-size: 6rem;
+}
+.offer-section .offer-contents{
+    /* background: sandybrown; */
+    position: relative;
+    height: 90%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.offer-section .offer-contents .content-text{
+    /* background: white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.offer-section .offer-contents .content-text p{
+    font-size: 5rem;
+    position: absolute;
+    left: 35%;
+    
+}
+.offer-section .offer-contents .content-text .dot{
+    position: absolute;
+    left: 30%
+}
+.offer-section .offer-contents .content-text .dot img{
+    width: 1vw;
+}
+.footer{
+    position: relative;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+.footer .icons-contents{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+.footer .icons-contents .icon{
+    width: 10%;
+}
+.footer .icons-contents .icon img{
+    width: 50px;
+}
+@media only screen and (max-width: 280px){
+    .title-area{
+        width: 100vw;
+        height: 45px;
+    }
+    .besteeze-logo img{
+        width: 50px;
+    }
+    .title-area a{
+        /* top: 0; */
+        font-size: 15px;
+    }
+    .text-container{
+        top: 40px;
+        height: 26vh;
+        /* background: red; */
+    }
+    .body-text{
+        width: 90vw;
+        font-size: 16px;
+        position: absolute;
+        top: 38px;
+        /* background: red; */
+    }
+    .body-text p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .offer-section{
+        position: relative;
+        top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100vw;
+        height: 40vh;
+        /* background-color: forestgreen; */
+    }
+    .offer-section h1{
+        font-size: 1.rem;
+        font-weight: bolder;
+        position: absolute;
+        top: 10px;
+    }
+    .offer-section .offer-contents{
+        /* background: sandybrown; */
+        position: relative;
+        top: 35px;
+        height: 70%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .offer-section .offer-contents .content-text{
+        /* background: white; */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 50%;
+    }
+    .offer-section .offer-contents .content-text p{
+        font-size: 1rem;
+        position: absolute;
+        left: 23%;
+        
+    }
+    .offer-section .offer-contents .content-text .dot{
+        position: absolute;
+        left: 13%
+    }
+    .offer-section .offer-contents .content-text .dot img{
+        width: 4.5vw;
+    }
+    .footer{
+        position: relative;
+        top: 30px;
+        width: 100vw;
+        height: 9vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer h5{
+        color: white;
+    }
+    .footer .icons-contents{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 50%;
+    }
+    .footer .icons-contents .icon{
+        width: 10%;
+    }
+    .footer .icons-contents .icon img{
+        width: 30px;
+    }
+    .footer .copyright{
+        position: relative;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer .copyright h5{
+        font-size: .7rem;
+    }
+}
+
+
+@media only screen and (max-width: 414px){
+    .title-area{
+        width: 100vw;
+        height: 50px;
+    }
+    .besteeze-logo img{
+        width: 95px;
+    }
+    .title-area a{
+        /* top: 0; */
+        font-size: 18px;
+    }
+    .text-container{
+        top: 50px;
+        height: 30vh;
+    }
+    .body-text{
+        width: 290px;
+        position: relative;
+        top: 0px;
+    }
+    .body-text p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .offer-section{
+        position: relative;
+        top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100vw;
+        height: 40vh;
+        /* background-color: forestgreen; */
+    }
+    .offer-section h1{
+        position: relative;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        position: absolute;
+        top: 10px;
+    }
+    .offer-section .offer-contents{
+        /* background: sandybrown; */
+        position: absolute;
+        bottom: 15px;
+        height: 80%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .offer-section .offer-contents .content-text{
+        /* position: relative; */
+        /* background: white; */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 50%;
+    }
+    .offer-section .offer-contents .content-text p{
+        font-size: 1rem;
+        position: absolute;
+        left: 32%;
+        
+    }
+    .offer-section .offer-contents .content-text .dot{
+        position: absolute;
+        left: 22%;
+    }
+    .offer-section .offer-contents .content-text .dot img{
+        width: 4vw;
+    }
+    .footer{
+        position: relative;
+        top: 40px;
+        width: 100vw;
+        height: 26vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background: rgb(53, 53, 53);
+    }
+    .footer h4{
+        position: relative;
+        right: 52px;
+        top: 0px;
+        color: white;
+        font-size: 1rem;
+    }
+    .footer .icons-contents{
+        /* background: chartreuse; */
+        position: relative;
+        bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 50%;
+    }
+    .footer .icons-contents .icon{
+        width: 10%;
+    }
+    .footer .icons-contents .icon img{
+        width: 30px;
+    }
+    #facebook img{
+        width: 16px;
+    }
+    .footer .copyright{
+        position: relative;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer .copyright h5{
+        font-size: .8rem;
+        color: white;
+    }
+}
+
+
+
+@media only screen and (min-width: 540px){
+    .besteeze-logo{
+        width: 150px;
+    }
+    .title-text{
+        font-size: 25px;
+    }
+        /* post-section */
+        .post-container h4{
+            font-size: 19px;
+            margin-left: 75px;
+        }
+        .post-container ul li a{
+            font-size: 17px;
+        }
+        .post-container ul{
+            height: 45vh;
+            margin-left: 75px;
+        }
+        .post-ul h4{
+            margin-left: 22px;
+            font-size: 19px;
+        }
+        .post-ul{
+            height: 50vh;
+            margin-left: 22px;
+            margin-top: 10px;
+        }
+        .post-ul ul li{
+            list-style: none;
+        }
+        .post-ul ul li a{
+            position: relative;
+            font-size: 17px;
+            text-decoration: none;
+            color: black;
+        }
+        .markdown-header{
+            font-size: 13px;
+            width: 70vw;
+        }
+        .offer-section{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            width: 100vw;
+            height: 50vh;
+            /* background-color: forestgreen; */
+        }
+        .offer-section h1{
+            font-size: 1.8rem;
+            font-weight: bolder;
+            position: absolute;
+            top: 10px;
+        }
+        .offer-section .offer-contents{
+            /* background: sandybrown; */
+            position: relative;
+            top: 35px;
+            height: 80%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .offer-section .offer-contents .content-text{
+            /* background: white; */
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 50%;
+        }
+        .offer-section .offer-contents .content-text h3{
+            font-size: 1rem;
+            position: absolute;
+            left: 32%;
+            
+        }
+        .offer-section .offer-contents .content-text .dot{
+            position: absolute;
+            left: 22%
+        }
+        .offer-section .offer-contents .content-text .dot img{
+            width: 4vw;
+        }
+}
+
+@media only screen and (min-width: 768px){
+    .body-text p{
+        font-size: 18px;
+        line-height: 34px;
+    }
+    .besteeze-logo{
+        width: 182px;
+    }
+    .title-text{
+        font-size: 30px;
+    }
+
+        /* post-section */
+    .post-container h4{
+        font-size: 24px;
+        margin-left: 90px;
+    }
+    .post-container ul li a{
+        font-size: 21px;
+    }
+    .post-container ul{
+        height: 45vh;
+        margin-left: 90px;
+        /* background-color: rgb(253, 146, 146); */
+    }
+    .post-ul h4{
+        margin-left: 3px;
+        font-size: 19px;
+    }
+    .post-ul ul li{
+        list-style: none;
+    }
+    .post-ul ul li a{
+        position: relative;
+        font-size: 21px;
+        text-decoration: none;
+        color: black;
+    }
+    .post-ul h4{
+        margin-left: 30px;
+        font-size: 24px;
+    }
+    .post-ul{
+        height: 50vh;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .post-ul ul li{
+        list-style: none;
+    }
+    .post-ul ul li p{
+        font-size: 14px;
+    }
+    .markdown-header{
+        width: 70vw;
+        font-size: 20px;
+    }
+    
+}
+
+
+@media only screen and (min-width: 1024px){
+    .besteeze-logo{
+        width: 208.2px;
+    }
+    .body-text{
+        width: 800px;
+    }
+    .body-text p{
+        font-size: 22px;
+        line-height: 41px;
+    }
+
+
+    
+     /* post-section */
+     .post-container h4{
+        font-size: 24px;
+        margin-left: 100px;
+    }
+    .post-container ul li a{
+        font-size: 22px;
+    }
+    .post-container ul{
+        height: 30vh;
+        margin-left: 100px;
+    }
+    .post-ul h4{
+        margin-left: 40px;
+        font-size: 24px;
+        margin-top: 40px;
+    }
+    .post-ul ul li{
+        list-style: none;
+    }
+    .post-ul ul li a{
+        position: relative;
+        font-size: 22px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .post-ul{
+        height: 35vh;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    .post-ul ul li p{
+        font-size: 15px;
+    }
+    .post-ul li p{
+        font-size: 20px;
+        /* background-color: red; */
+    }
+    .markdown-header{
+        width: 70vw;
+    }
+
+}
+
+@media only screen and (min-width: 1200px){
+    .besteeze-logo{
+        width: 208.2px;
+    }
+    .body-text p{
+        font-size: 22px;
+        line-height: 41px;
+    }
+     /* post-section */
+     .post-container h4{
+        position: relative;
+        font-size: 24px;
+        left: 65px;
+    }
+    .post-container ul li a{
+        font-size: 22px;
+    }
+    .post-container ul{
+        position: relative;
+        height: 60vh;
+        left: 65px;
+    }
+    .post-ul h4{
+        position: relative;
+        left: 60px;
+        font-size: 24px;
+    }
+    .post-ul ul li{
+        list-style: none;
+        margin-left: 60px;
+    }
+    .post-ul ul li a{
+        font-size: 22px;
+        text-decoration: none;
+        color: black;
+    }
+    .post-ul{
+        height: 67vh;
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+    .post-ul ul li p{
+        font-size: 15px;
+        /* background-color: red; */
+    }
+    .markdown-header{
+        width: 70vw;
+    }
+}

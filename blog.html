@@ -1,0 +1,24 @@
+---
+title: Yunki
+layout: default
+---
+
+<div class="title-area">
+    <a href="index.html"><img src={{"./assets/img/yunki-logo.svg" | base_url}} alt="besteeze-logo" class="besteeze-logo"
+            width="208.2px">
+    </a>
+    <a class="title-text" href="blog.html">Blog</a>
+</div>
+
+<div class="post-container">
+    <h4>Posts</h4>
+
+    <ul class="post-ul">
+        {% for post in site.posts %}
+        <li>
+            <p class="date">{{post.date}}</p>
+            <a href="{{post.url}}" class="post-links">{{post.title}}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
