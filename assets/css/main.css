@@ -79,6 +79,14 @@ font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
     font-size: 6rem;
 }
+.offer-section .line{
+    position: absolute;
+    top: 50px;
+    width: 15vw;
+    height: .5vh;
+    background: black;
+
+}
 .offer-section .offer-contents{
     /* background: sandybrown; */
     position: relative;
@@ -255,7 +263,7 @@ font-family: 'Roboto', sans-serif;
         font-size: 18px;
     }
     .text-container{
-        /* top: 0px; */
+        bottom: 10px;
         height: 30vh;
         /* background: red; */
     }
@@ -285,7 +293,15 @@ font-family: 'Roboto', sans-serif;
         font-size: 1.5rem;
         font-weight: bolder;
         position: absolute;
-        top: 20px;
+        top: 7px;
+    }
+    .offer-section .line{
+        position: absolute;
+        top: 41px;
+        width: 18vw;
+        height: .5vh;
+        background: black;
+    
     }
     .offer-section .offer-contents{
         /* background: sandybrown; */
@@ -336,6 +352,7 @@ font-family: 'Roboto', sans-serif;
         top: 0px;
         color: white;
         font-size: 1rem;
+        font-family: 'Roboto Slab', serif;
     }
     .footer .icons-contents{
         /* background: chartreuse; */
